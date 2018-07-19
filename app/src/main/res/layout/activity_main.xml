@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="0dp"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:paddingBottom="2dp" tools:context=".MainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Xylophone"
+    android:textSize="25sp"
+    android:gravity="center_horizontal"
+
+    android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/playC"
+        android:text="C"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/c_shape"/>
+    <Button
+        android:id="@+id/playD"
+        android:text="D"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_height="55dp"
+        android:background="@drawable/d_shape"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/playE"
+        android:text="E"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/e_shape"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/playF"
+        android:text="F"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/f_shape"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/playG"
+        android:text="G"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/g_shape"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/playA"
+        android:text="A"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/a_shape"
+        android:layout_marginLeft="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/playB"
+        android:text="B"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/b_shape"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:gravity="end"
+
+        android:text="Jusutech I.T Solutions"/>
+
+</LinearLayout>
